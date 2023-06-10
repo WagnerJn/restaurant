@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>урок 3</title>
+	</head>
+	<body>
+		<form action="#" method="get">
+			<h1>Анкета посетителя ресторана</h1>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<label for="text">Имя</label><br><input placeholder="Введите имя" type="text" id="text"><br>
+				<label for="phone">Телефон</label><br><input placeholder="Номер телефона" type="phone" id="phone"><br>
+				<label for="email">Imail</label><br><input placeholder="Электронная почта" type="email" id="email"><br>
+				<label for="date">Дата</label><br><input type="date" id="date"><br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Персональная информация</legend>
+				<label for="number">Возраст</label><br>
+				<input type="number" id="number" min="1" max="100" step="1"><br>
+				<label for="select">Любимая кухня</label><br>
+				<select name="" id="select">
+					<option value="russian">Русская</option>
+					<option value="italian">Итальянская</option>
+					<option value="american">Американская</option>
+					<option value="japan">Японская</option>
+				</select><br>
+				<label for="textarea">Какие блюда Вы бы хотели увидеть в меню?</label><br>
+				<input type="textarea" id="textarea">
+			</fieldset>
+
+			<fieldset>
+				<legend>Оценка нашего заведения</legend>
+				<label for="radio">Почему Вы выбрали наше заведение?</label><br>
+				<input type="radio" id="radio" name="yes">Недалеко от дома<br>
+				<input type="radio" id="radio" name="yes">Увидел рекламу<br>
+				<input type="radio" id="radio" name="yes">Посоветовали<br>
+				<input type="radio" id="radio" name="yes">Оптимальное соотношение цены и качества
+			</fieldset><br>
+			<input type="submit" value="Отправить"><br><br><br>
+
+			<fieldset>
+				<legend>Информация</legend>
+				<p><label for="cat">Кошка<input id="cat" type="checkbox"></label></p>
+				<p><label for="dog">Собака<input id="dog" type="checkbox"></label></p>
+				<p><label for="bird">Птица<input id="bird" type="checkbox"></label></p>
+			</fieldset><br>
+			<fieldset>
+				<legend>Информация 2</legend>
+				<label for="name">Имя пользователя</label><br><input type="text" id="name"><br>
+				<label for="pass">Пароль</label><br><input type="password" id="pass"><br>
+				<label for="tel">Номер телефона</label><br><input type="phone" id="tel">
+			</fieldset><br>
+
+		</form>
+	</body>
+</html>
